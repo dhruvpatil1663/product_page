@@ -1,0 +1,23 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+   }
+   .product-image {
+    flex: 1;
+   }
+   .product-image img {
+    max-width: 100%;
+    height: auto;
+   }
+   .product-info {
+    flex: 2;
+   }
+   .cart {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #ddd;
+   }
